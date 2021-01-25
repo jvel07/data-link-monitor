@@ -1,0 +1,64 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DataAccessTier
+</name>
+</assembly>
+<members>
+<member name="P:DataAccessTier.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:DataAccessTier.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:DataAccessTier.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:DataAccessTier.intermitenciaDataSetTableAdapters.Estado_EnlaceTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:DataAccessTier.intermitenciaDataSetTableAdapters.Info_FarmaciaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:DataAccessTier.intermitenciaDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(DataEntityTier.intermitenciaDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:DataAccessTier.intermitenciaDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(DataEntityTier.intermitenciaDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:DataAccessTier.intermitenciaDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(DataEntityTier.intermitenciaDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:DataAccessTier.intermitenciaDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:DataAccessTier.intermitenciaDataSetTableAdapters.TableAdapterManager.UpdateAll(DataEntityTier.intermitenciaDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:DataAccessTier.intermitenciaDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:DataAccessTier.intermitenciaDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:DataAccessTier.intermitenciaDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>
