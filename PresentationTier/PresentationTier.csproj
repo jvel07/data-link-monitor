@@ -1,0 +1,711 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5393F47C-917E-4923-B348-8F00A1B64EBD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PresentationTier</RootNamespace>
+    <AssemblyName>PresentationTier</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccElim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccElim.Designer.cs">
+      <DependentUpon>AccElim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EstadoEnlace.cs" />
+    <Compile Include="Farmacia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Farmacia.Designer.cs">
+      <DependentUpon>Farmacia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Monitoreo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Monitoreo.Designer.cs">
+      <DependentUpon>Monitoreo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\ServiceReference1\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AccElim.resx">
+      <DependentUpon>AccElim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Farmacia.resx">
+      <DependentUpon>Farmacia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Monitoreo.resx">
+      <DependentUpon>Monitoreo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\DataSources\DataEntityTier.intermitenciaDataSet.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Service References\ServiceReference1\DataEntityTier.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceReference1\DataService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceReference1\intermitenciaDataSet.xsd" />
+    <None Include="Service References\ServiceReference1\PresentationTier.ServiceReference1.CompositeType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference1\service.wsdl" />
+    <None Include="Service References\ServiceReference1\service.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceReference1\service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataEntityTier\DataEntityTier.vbproj">
+      <Project>{D8D2CEB1-4FC5-4FD3-B805-F284343A007A}</Project>
+      <Name>DataEntityTier</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\ServiceReference1\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServiceReference1\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServiceReference1\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServiceReference1\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Paf Sagrado Corazón 2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Paf Sagrado Corazón 3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Servidores Matriz UIO.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Oficinas Ibarra.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco 3 de Julio.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Principal Sto. Dom..wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Obelisco.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Merc. Prin. Tulcán.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Michelena.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PAF Corazón  de Jesús.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ECO - Real Audiencia.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PAF Calderón.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ECO - Vida Sana.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PAF El Carmen -Ibarra.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ECO Siglo XXI  Ambato.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PAF Yaruqui.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ECO  El Salvador.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ECO  Parque  Infanti.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ECO  Atacames II.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ECO Santa Marianita.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ECO Catedral.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ECO Inglesa III.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PAF Nacional - El Carmen.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco  La Castellano.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MEDI Cumbaya.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PAF La Dolorosa  Otavalo.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ECO Jaime Roldo.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PAF Dolorosa Ibarra.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ECO Shushufindi.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ECO San Lorenzo.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ECO Tena.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ECO El BataN.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ECO - Las Casas.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Medi Gonzalez Suarez.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PAF  La Dolorosa Cayambe.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Paf La Merced Ibarra.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sylvana 4.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sylvana 3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sylvana 2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Mariscal Sucre.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sylvana 1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Turubamba.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Medi Miravalle.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco La Magdalena.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Tierra Nueva.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MEDI PLAZA.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Medi Granda Centeno.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Mi Farmacia El Carmen.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Alejandro.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Vaca de Castro.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Pelileo.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco San Miguel.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco su Farmacia.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco San Cayetano.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Kenia.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Medi La Granja.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Eloy Alfaro.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco La Salud.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Santa Clara.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco 9 de Octubre.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Pasteur.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Medi Italia.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Universal.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Gonzales Suarez.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Medi Ficoa.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Carcelen Bajo.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco America.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Medi Granados.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Medi Santa Barbara.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Industrial.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Medi Playa Chica.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco La Mirage.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Sacha Dos.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Medi El Bosque.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Mariano Acosta.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Huachichico.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Atahualpa.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Olmedo Ibarra.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco La Concordia Dos.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Difarmes Sur.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Pedernales.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Comité del Pueblo.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Biloxi.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Medi Amazonas.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Florida.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Clinica Ibarra.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco El Retorno.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Ofelia.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Patronato Sur.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Lago Agrio.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Veintimilla Tulcan.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco 12 de Noviembre.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MEDI MAGDA CARAPUNGO.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MEDI MAGDA RIVER MALL.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MEDI MAGDA EL EJIDO.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MEDI MAGDA VENEZUELA.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ECO AMERICAS CUENCA.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Merc. Mod. Ambato.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Medi Brasil.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco México.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Colón Esmeraldas.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Carabobo.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco El Inca.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Difarmes Mañosca.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Medi Hospital Andrade Marín.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Hosp. Andrade Marín.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco París.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Santa Monica.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Sudamericana.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Hosp. San Vicente.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco El Cisne.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Cevallos.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Quinindé Tres.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Medi Clínica Especialidades.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Libertad.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Bolivar.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Carapungo.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Clínica Pichincha.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Medi Central Tumbaco.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PAF Difarime.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Medi Real Audiencia.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Medi Interoceánica.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Copacabana.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco San Francisco.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco San Gabriel.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Servicio de DataFast.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Merc. Princ. Ambato.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Central San Gabriel.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Medi Parq. Cent. Cayambe.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Medi Calle Rocafuerte.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Coca.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Cotocollao.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Medi Mariana de Jesus.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Quinindé Dos.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Hosp. Quinindé.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco El Recreo.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Sánchez y Cifuentes.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Las Lomas.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Sto. Dom. Calle Guayaquil.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Quininde Uno.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PAF Más Distribuidora.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Parque Maldonado.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco la J.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Calle Guayaquil.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Parque Sucre.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Sacha.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Pío XII.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco La Concordia.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Restauración.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Olmedo Siglo XXI.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zerma.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco La Merced.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco La Estación.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco La Union.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Central Cayambe.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Medi Indoamerica.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Cruz Roja Otavalo.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Andinatel Otavalo.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eco Av. Quito.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eco 29 de mayo.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\signo.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medi shyris.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medi republica.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medi la y.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eco villaflora.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eco atacames.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eco 5 esquinas.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eco conocoto.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eco rod chavez.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medi san rafael.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medi puce.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medi ely alf.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\difarmes ambato.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eco carcelen.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medi la prensa.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eco maldonado amb.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medi pomasqui.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medi estad olimpico.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medi el ejido.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medi av america.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eco machachi.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\datafast.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eco calle sucre.wav" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

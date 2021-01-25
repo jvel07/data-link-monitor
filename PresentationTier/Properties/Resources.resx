@@ -1,0 +1,670 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="datafast" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\datafast.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="difarmes_ambato" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\difarmes ambato.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Difarmes_Mañosca" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Difarmes Mañosca.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Difarmes_Sur" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Difarmes Sur.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_12_de_Noviembre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco 12 de Noviembre.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="eco_29_de_mayo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eco 29 de mayo.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_3_de_Julio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco 3 de Julio.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="eco_5_esquinas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eco 5 esquinas.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_9_de_Octubre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco 9 de Octubre.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Alejandro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Alejandro.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_America" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco America.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ECO_AMERICAS_CUENCA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ECO AMERICAS CUENCA.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Andinatel_Otavalo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Andinatel Otavalo.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="eco_atacames" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eco atacames.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Atahualpa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Atahualpa.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Av__Quito" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Av. Quito.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Biloxi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Biloxi.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Bolivar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Bolivar.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Calle_Guayaquil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Calle Guayaquil.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="eco_calle_sucre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eco calle sucre.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Carabobo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Carabobo.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Carapungo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Carapungo.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="eco_carcelen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eco carcelen.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Carcelen_Bajo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Carcelen Bajo.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ECO_Catedral" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ECO Catedral.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Central_Cayambe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Central Cayambe.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Central_San_Gabriel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Central San Gabriel.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Cevallos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Cevallos.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Clinica_Ibarra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Clinica Ibarra.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Clínica_Pichincha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Clínica Pichincha.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Coca" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Coca.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Colón_Esmeraldas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Colón Esmeraldas.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Comité_del_Pueblo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Comité del Pueblo.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="eco_conocoto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eco conocoto.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Copacabana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Copacabana.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Cotocollao" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Cotocollao.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Cruz_Roja_Otavalo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Cruz Roja Otavalo.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Eloy_Alfaro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Eloy Alfaro.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ECO_El_BataN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ECO El BataN.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_El_Cisne" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco El Cisne.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_El_Inca" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco El Inca.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_El_Recreo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco El Recreo.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_El_Retorno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco El Retorno.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Florida" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Florida.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Gonzales_Suarez" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Gonzales Suarez.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Hosp__Andrade_Marín" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Hosp. Andrade Marín.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Hosp__Quinindé" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Hosp. Quinindé.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Hosp__San_Vicente" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Hosp. San Vicente.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Huachichico" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Huachichico.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Industrial" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Industrial.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ECO_Inglesa_III" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ECO Inglesa III.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ECO_Jaime_Roldo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ECO Jaime Roldo.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Kenia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Kenia.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Lago_Agrio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Lago Agrio.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Las_Lomas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Las Lomas.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_La_Concordia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco La Concordia.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_La_Concordia_Dos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco La Concordia Dos.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_La_Estación" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco La Estación.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_la_J" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco la J.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_La_Magdalena" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco La Magdalena.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_La_Merced" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco La Merced.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_La_Mirage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco La Mirage.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_La_Salud" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco La Salud.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_La_Union" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco La Union.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Libertad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Libertad.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="eco_machachi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eco machachi.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="eco_maldonado_amb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eco maldonado amb.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Mariano_Acosta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Mariano Acosta.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Mariscal_Sucre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Mariscal Sucre.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Merc__Mod__Ambato" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Merc. Mod. Ambato.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Merc__Princ__Ambato" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Merc. Princ. Ambato.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Merc__Prin__Tulcán" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Merc. Prin. Tulcán.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Michelena" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Michelena.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Mi_Farmacia_El_Carmen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Mi Farmacia El Carmen.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_México" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco México.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Obelisco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Obelisco.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Ofelia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Ofelia.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Olmedo_Ibarra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Olmedo Ibarra.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Olmedo_Siglo_XXI" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Olmedo Siglo XXI.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Parque_Maldonado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Parque Maldonado.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Parque_Sucre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Parque Sucre.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_París" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco París.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Pasteur" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Pasteur.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Patronato_Sur" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Patronato Sur.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Pedernales" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Pedernales.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Pelileo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Pelileo.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Principal_Sto__Dom_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Principal Sto. Dom..wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Pío_XII" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Pío XII.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Quininde_Uno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Quininde Uno.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Quinindé_Dos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Quinindé Dos.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Quinindé_Tres" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Quinindé Tres.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Restauración" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Restauración.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="eco_rod_chavez" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eco rod chavez.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Sacha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Sacha.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Sacha_Dos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Sacha Dos.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Santa_Clara" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Santa Clara.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ECO_Santa_Marianita" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ECO Santa Marianita.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Santa_Monica" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Santa Monica.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_San_Cayetano" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco San Cayetano.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_San_Francisco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco San Francisco.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_San_Gabriel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco San Gabriel.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ECO_San_Lorenzo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ECO San Lorenzo.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_San_Miguel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco San Miguel.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ECO_Shushufindi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ECO Shushufindi.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ECO_Siglo_XXI__Ambato" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ECO Siglo XXI  Ambato.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Sto__Dom__Calle_Guayaquil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Sto. Dom. Calle Guayaquil.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Sudamericana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Sudamericana.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_su_Farmacia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco su Farmacia.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Sánchez_y_Cifuentes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Sánchez y Cifuentes.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ECO_Tena" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ECO Tena.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Tierra_Nueva" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Tierra Nueva.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Turubamba" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Turubamba.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Universal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Universal.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Vaca_de_Castro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Vaca de Castro.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco_Veintimilla_Tulcan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco Veintimilla Tulcan.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="eco_villaflora" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eco villaflora.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ECO__Atacames_II" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ECO  Atacames II.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ECO__El_Salvador" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ECO  El Salvador.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eco__La_Castellano" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eco  La Castellano.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ECO__Parque__Infanti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ECO  Parque  Infanti.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ECO___Las_Casas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ECO - Las Casas.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ECO___Real_Audiencia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ECO - Real Audiencia.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ECO___Vida_Sana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ECO - Vida Sana.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Medi_Amazonas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Medi Amazonas.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="medi_av_america" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medi av america.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Medi_Brasil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Medi Brasil.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Medi_Calle_Rocafuerte" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Medi Calle Rocafuerte.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Medi_Central_Tumbaco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Medi Central Tumbaco.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Medi_Clínica_Especialidades" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Medi Clínica Especialidades.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MEDI_Cumbaya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MEDI Cumbaya.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="medi_ely_alf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medi ely alf.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Medi_El_Bosque" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Medi El Bosque.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="medi_el_ejido" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medi el ejido.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="medi_estad_olimpico" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medi estad olimpico.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Medi_Ficoa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Medi Ficoa.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Medi_Gonzalez_Suarez" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Medi Gonzalez Suarez.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Medi_Granados" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Medi Granados.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Medi_Granda_Centeno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Medi Granda Centeno.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Medi_Hospital_Andrade_Marín" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Medi Hospital Andrade Marín.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Medi_Indoamerica" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Medi Indoamerica.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Medi_Interoceánica" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Medi Interoceánica.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Medi_Italia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Medi Italia.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Medi_La_Granja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Medi La Granja.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="medi_la_prensa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medi la prensa.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="medi_la_y" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medi la y.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MEDI_MAGDA_CARAPUNGO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MEDI MAGDA CARAPUNGO.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MEDI_MAGDA_EL_EJIDO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MEDI MAGDA EL EJIDO.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MEDI_MAGDA_RIVER_MALL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MEDI MAGDA RIVER MALL.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MEDI_MAGDA_VENEZUELA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MEDI MAGDA VENEZUELA.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Medi_Mariana_de_Jesus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Medi Mariana de Jesus.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Medi_Miravalle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Medi Miravalle.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Medi_Parq__Cent__Cayambe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Medi Parq. Cent. Cayambe.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Medi_Playa_Chica" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Medi Playa Chica.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MEDI_PLAZA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MEDI PLAZA.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="medi_pomasqui" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medi pomasqui.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="medi_puce" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medi puce.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Medi_Real_Audiencia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Medi Real Audiencia.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="medi_republica" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medi republica.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Medi_Santa_Barbara" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Medi Santa Barbara.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="medi_san_rafael" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medi san rafael.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="medi_shyris" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medi shyris.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Oficinas_Ibarra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Oficinas Ibarra.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PAF_Calderón" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PAF Calderón.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PAF_Corazón__de_Jesús" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PAF Corazón  de Jesús.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PAF_Difarime" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PAF Difarime.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PAF_Dolorosa_Ibarra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PAF Dolorosa Ibarra.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PAF_El_Carmen__Ibarra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PAF El Carmen -Ibarra.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PAF_La_Dolorosa__Otavalo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PAF La Dolorosa  Otavalo.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Paf_La_Merced_Ibarra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Paf La Merced Ibarra.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PAF_Más_Distribuidora" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PAF Más Distribuidora.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PAF_Nacional___El_Carmen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PAF Nacional - El Carmen.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Paf_Sagrado_Corazón_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Paf Sagrado Corazón 2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Paf_Sagrado_Corazón_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Paf Sagrado Corazón 3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PAF_Yaruqui" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PAF Yaruqui.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PAF__La_Dolorosa_Cayambe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PAF  La Dolorosa Cayambe.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Servicio_de_DataFast" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Servicio de DataFast.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Servidores_Matriz_UIO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Servidores Matriz UIO.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="signo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\signo.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Sylvana_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sylvana 1.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Sylvana_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sylvana 2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Sylvana_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sylvana 3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Sylvana_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sylvana 4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Zerma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Zerma.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

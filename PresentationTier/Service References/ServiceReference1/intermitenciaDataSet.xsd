@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://tempuri.org/intermitenciaDataSet.xsd" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:mstns="http://tempuri.org/intermitenciaDataSet.xsd" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://tempuri.org/intermitenciaDataSet.xsd" id="intermitenciaDataSet" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element msdata:IsDataSet="true" msdata:UseCurrentLocale="true" name="intermitenciaDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Estado_Enlace">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id_estado_enlace" type="xs:int" />
+              <xs:element name="porcentaje_pings_perdidos" type="xs:double" />
+              <xs:element name="tiempo_monitoreo" type="xs:int" />
+              <xs:element name="fk_id_farm" type="xs:int" />
+              <xs:element minOccurs="0" name="ip_farm">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="nombre_farm">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Info_Farmacia">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id_farmacia" type="xs:int" />
+              <xs:element name="nombre_farmacia">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ip_farmacia">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="alerta_Rec">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique msdata:PrimaryKey="true" name="Constraint1">
+      <xs:selector xpath=".//mstns:Estado_Enlace" />
+      <xs:field xpath="mstns:id_estado_enlace" />
+    </xs:unique>
+    <xs:unique msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true" name="Info_Farmacia_Constraint1">
+      <xs:selector xpath=".//mstns:Info_Farmacia" />
+      <xs:field xpath="mstns:id_farmacia" />
+    </xs:unique>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="FK_Estado_Enlace_Info_Farmacia" msdata:parent="Info_Farmacia" msdata:child="Estado_Enlace" msdata:parentkey="id_farmacia" msdata:childkey="fk_id_farm" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>
